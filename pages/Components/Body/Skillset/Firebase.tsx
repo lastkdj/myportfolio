@@ -54,14 +54,14 @@ const Firebase: React.FC<FirebaseProps> = () => {
           >
             <Grid container justify="center" item xs={4} sm={12} xl={12}>
               <img
-                src={"https://i.imgur.com/9vdW0jd.png"}
-                className="skills_icon_firebase"
+                src={"https://i.imgur.com/fi9DeFs.png"}
+                className="skills_icon_typescript"
               />
             </Grid>
             <Grid container justify="center" item xs={8} sm={12} xl={12}>
-              <Typography className="skills_name_firebase">Firebase</Typography>
+              <Typography className="skills_name">Github</Typography>
               <Typography className="skills_description">
-                Cloud Base DB, Auth, and File Server
+                Version managment and Deployment
               </Typography>
             </Grid>
           </Grid>
