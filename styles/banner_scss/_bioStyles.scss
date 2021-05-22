@@ -1,0 +1,170 @@
+$fontColor: #1f232c;
+
+$xsBreakpoint: 375px;
+$smBreakpoint: 600px;
+$mdBreakpoint: 959px;
+$lgBreakpoint: 1279px;
+$xlBreakpoint: 1919px;
+
+$minTablet: 960px;
+$minLaptop: 1280px;
+
+@mixin marginTopBottom {
+  margin: 10px 0px;
+}
+
+@mixin marginTopBottom_md {
+  margin: 5px 0px;
+}
+
+@mixin fadeInRightAnimation {
+  animation-duration: 2s;
+  animation-name: fadeInRight;
+  transition: 0.5s;
+}
+
+@mixin fadeInBotAnimation {
+  animation-duration: 1.3s;
+  animation-name: fadeInBot;
+  transition: 0.5s;
+}
+
+.bio_container {
+  padding-top: 120px;
+}
+
+.bio_tittle {
+  color: $fontColor;
+  font-size: 1.2em;
+  font-weight: 500;
+  letter-spacing: 5px;
+  @include marginTopBottom;
+  @include fadeInRightAnimation;
+}
+
+.bio_greet {
+  color: $fontColor;
+  font-size: 4.1em;
+  font-weight: 600;
+  @include marginTopBottom;
+  @include fadeInRightAnimation;
+}
+
+.bio_name {
+  color: $fontColor;
+  font-size: 4.1em;
+  font-weight: 400;
+  @include fadeInRightAnimation;
+}
+
+.bio_span {
+  font-size: 1.2em;
+  color: #525252;
+  font-weight: 500;
+}
+
+.bio_description {
+  color: $fontColor;
+  font-size: 1em;
+  font-weight: 300;
+  text-align: justify;
+  line-height: 1.8;
+  margin: 20px 0px;
+  @include fadeInBotAnimation;
+}
+
+@media (max-width: $mdBreakpoint) {
+  .bio_container {
+    padding: 10px;
+    align-items: center;
+  }
+
+  .bio_tittle {
+    font-size: 0.9em;
+  }
+
+  .bio_greet {
+    font-size: 1.6em;
+  }
+
+  .bio_name {
+    font-size: 1.5em;
+  }
+
+  .bio_span {
+    font-size: 1em;
+  }
+
+  .bio_description {
+    font-size: 1em;
+    padding: 0px 10px;
+  }
+}
+
+@media (min-width: $minTablet) and (max-width: $lgBreakpoint) {
+  .bio_container {
+    padding-top: 20px;
+  }
+
+  .bio_tittle {
+    font-size: 1em;
+  }
+
+  .bio_greet {
+    font-size: 2.5em;
+  }
+
+  .bio_name {
+    font-size: 2.5em;
+  }
+
+  .bio_description {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: $minLaptop) and (max-width: $xlBreakpoint) {
+  .bio_container {
+    padding-top: 40px;
+  }
+
+  .bio_tittle {
+    font-size: 1em;
+  }
+
+  .bio_greet {
+    font-size: 2.5em;
+  }
+
+  .bio_name {
+    font-size: 2.5em;
+  }
+
+  .bio_description {
+    font-size: 1em;
+  }
+}
+
+// Key frames animations
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+  }
+}
+
+@keyframes fadeInBot {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+  }
+}

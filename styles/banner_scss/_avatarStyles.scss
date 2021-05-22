@@ -1,0 +1,11 @@
+$xsBreakpoint: 375px;
+$smBreakpoint: 600px;
+$mdBreakpoint: 959px;
+$lgBreakpoint: 1279px;
+$xlBreakpoint: 1920px;
+
+@media (max-width: $mdBreakpoint) {
+  .avatar_container {
+    display: none;
+  }
+}

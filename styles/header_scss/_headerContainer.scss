@@ -1,0 +1,32 @@
+$xsBreakpoint: 375px;
+$smBreakpoint: 600px;
+$mdBreakpoint: 960px;
+$lgBreakpoint: 1280px;
+$xlBreakpoint: 1920px;
+
+.container {
+  position: fixed;
+  top: 0;
+  height: 66px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  transition: all 0.3s ease-in-out;
+}
+
+.sticky {
+  height: 60px;
+  padding: 10px;
+  top: 0;
+  position: fixed;
+  background-color: #f2f2f2;
+  z-index: 2;
+  transition: all 0.3s ease-in-out;
+  box-shadow: -1px 10px 5px -4px rgba(0, 0, 0, 0.07);
+  border-bottom: 2px #3b3f49 solid;
+}
+
+@media (max-width: $smBreakpoint) {
+  .container {
+    border-bottom: 1px solid rgba(31, 35, 44, 0.12);
+  }
+}

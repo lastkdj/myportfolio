@@ -1,0 +1,31 @@
+@import "skills_tittle", "skills_paper", "skills_animation", "otherskills.scss";
+$fontColor: #1f232c;
+
+$xsBreakpoint: 375px;
+$smBreakpoint: 600px;
+$mdBreakpoint: 959px;
+$lgBreakpoint: 1279px;
+$xlBreakpoint: 1919px;
+
+$minTablet: 960px;
+$minLaptop: 1280px;
+
+.skills_container {
+  padding: 90px 0px;
+  background-color: #f2f2f2;
+  overflow: hidden;
+}
+
+.skills_grid_containerfirst {
+  margin: 20px 0px;
+}
+
+@media (max-width: $mdBreakpoint) {
+  .skills_container {
+    padding: 30px 10px;
+  }
+
+  .skills_grid_containerfirst {
+    margin: 0px;
+  }
+}

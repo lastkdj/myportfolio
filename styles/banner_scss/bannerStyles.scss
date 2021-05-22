@@ -1,0 +1,24 @@
+@import "buttonStyles", "bioStyles", "avatarStyles";
+
+$xsBreakpoint: 375px;
+$smBreakpoint: 600px;
+$mdBreakpoint: 959px;
+$lgBreakpoint: 1279px;
+$xlBreakpoint: 1920px;
+
+.banner_container {
+  margin-top: 66px;
+  height: 95vh;
+}
+
+@media (max-width: $xsBreakpoint) {
+  .banner_container {
+    height: 95vh;
+  }
+}
+
+@media (min-width: 376px) and (max-width: $mdBreakpoint) {
+  .banner_container {
+    height: 70vh;
+  }
+}

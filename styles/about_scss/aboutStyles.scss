@@ -1,0 +1,12 @@
+@import "about_tittle", "about_grid";
+
+.about_container {
+  padding: 90px 0px;
+  background-color: white;
+}
+
+@media (max-width: $mdBreakpoint) {
+  .about_container {
+    padding: 30px 10px;
+  }
+}
