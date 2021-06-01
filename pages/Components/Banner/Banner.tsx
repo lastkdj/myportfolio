@@ -4,6 +4,7 @@ import { useMediaQuery } from "react-responsive";
 import BannerButton from "./BannerButton";
 import KnowMore from "./KnowMore";
 import TypistComponent from "./TypistComponent";
+import Image from "next/image";
 
 export interface Props {}
 
@@ -14,12 +15,14 @@ const Banner: React.FC<Props> = () => {
     <Grid container justify="center" className="banner_container" id="home">
       <Grid
         container
-        alignItems="flex-start"
+        alignItems="flex-end"
         justify="center"
         item
         xs={4}
         className="avatar_container"
-      ></Grid>
+      >
+        <Image src="/profilefail.png" alt="" width="520px" height="880px" />
+      </Grid>
 
       <Grid
         container

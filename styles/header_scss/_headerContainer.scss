@@ -14,6 +14,8 @@ $xlBreakpoint: 1920px;
 }
 
 .sticky {
+  display: flex;
+  align-items: center;
   height: 60px;
   padding: 10px;
   top: 0;

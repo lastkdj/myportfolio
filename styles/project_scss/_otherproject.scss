@@ -1,0 +1,56 @@
+.other_skills_paper {
+  width: 100%;
+  padding: 10px;
+  border-radius: 7px;
+  background-color: white;
+  display: flex;
+  justify-items: center;
+}
+
+.other_skills_name {
+  width: 100%;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 500;
+  color: #1f232c;
+}
+
+.other_skills_description {
+  color: #979797;
+  font-size: 0.8em;
+  font-weight: 300;
+  margin: 10px 0px;
+  text-align: center;
+}
+
+.other_skills_icon {
+  width: 60px;
+  transition: transform 0.2s;
+}
+
+.other_skills_icon:hover {
+  transform: scale(1.3);
+}
+
+.skills_grid_margin {
+  margin: 0px 10px;
+}
+
+.other_design_skills_icon {
+  width: 40px;
+  transition: transform 0.2s;
+}
+
+.other_design_skills_icon:hover {
+  transform: scale(1.3);
+}
+
+.skills_other_tittle {
+  margin: 10px 0px;
+}
+
+@media (max-width: $mdBreakpoint) {
+  .skills_grid_margin {
+    margin: 5px 0px;
+  }
+}

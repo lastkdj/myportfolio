@@ -1,0 +1,70 @@
+.fadeOutSkills {
+  opacity: 0;
+}
+
+.fadeInLeft {
+  animation-duration: 1.3s;
+  animation-name: fadeInRightBig;
+}
+
+.fadeInBot {
+  animation-duration: 1.3s;
+  animation-name: fadeInBot;
+}
+
+.skills_react_grid {
+  transition: opacity 0.7s ease-in;
+  transition-delay: 0.1s;
+}
+.skills_next_grid {
+  transition: opacity 0.7s ease-in;
+  transition-delay: 0.3s;
+}
+
+.skills_type_grid {
+  transition: opacity 0.7s ease-in;
+  transition-delay: 0.5s;
+}
+
+.skills_sass_grid {
+  transition: opacity 0.7s ease-in;
+  transition-delay: 0.6s;
+}
+
+.skills_material_grid {
+  transition: opacity 0.7s ease-in;
+  transition-delay: 0.2s;
+}
+
+.skills_redux_grid {
+  transition: opacity 0.7s ease-in;
+  transition-delay: 0.4s;
+}
+.skills_firebase_grid {
+  transition: opacity 0.7s ease-in;
+  transition-delay: 0.6s;
+}
+.skills_frontend_grid {
+  transition: opacity 0.7s ease-in;
+  transition-delay: 0.8s;
+}
+
+@keyframes fadeInRightBig {
+  0% {
+    -webkit-transform: translateX(100px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+  }
+}
+
+@keyframes fadeInBot {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+  }
+}

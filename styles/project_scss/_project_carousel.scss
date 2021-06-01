@@ -1,0 +1,61 @@
+$xsBreakpoint: 375px;
+$smBreakpoint: 600px;
+$mdBreakpoint: 959px;
+$lgBreakpoint: 1279px;
+$xlBreakpoint: 1919px;
+$minTablet: 960px;
+$minLaptop: 1280px;
+
+.project_grid_carousel {
+  padding: 20px;
+}
+
+.project_image_grid {
+  margin: 0px 20px;
+}
+
+.project_carousel_image {
+  transition: transform 0.4s;
+}
+
+.project_carousel_image:hover {
+  transform: scale(1.2);
+}
+
+.project_name {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.2em;
+  font-weight: 500;
+  color: #1f232c;
+}
+
+.project_description {
+  color: #979797;
+  font-size: 0.9em;
+  font-weight: 300;
+  text-align: center;
+  line-height: 1.8;
+}
+
+.project_button {
+  border-radius: 30px;
+  background-color: #1f232c;
+  color: white;
+  text-transform: none;
+  width: 100%;
+  border: 1px solid #1f232c;
+  transition: 0.5s;
+  margin: 10px 0px;
+}
+
+.project_button:hover {
+  background-color: white;
+  color: #1f232c;
+  border: 1px solid #1f232c;
+}
+
+.project_buttons_container {
+  margin: 10px 10px;
+}
