@@ -21,7 +21,7 @@ const Banner: React.FC<Props> = () => {
         xs={4}
         className="avatar_container"
       >
-        <Image src="/profilefail.png" alt="" width="520px" height="880px" />
+        <Image src="/profilefail.png" alt="" width="500px" height="880px" />
       </Grid>
 
       <Grid
