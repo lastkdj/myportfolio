@@ -3,6 +3,7 @@ import Banner from "./Components/Banner/Banner";
 import About from "./Components/Body/About/About";
 import Skillset from "./Components/Body/Skillset/Skillset";
 import Projects from "./Components/Body/Projects/Projects";
+import Work from "./Components/Body/Work/Work";
 import { StylesProvider } from "@material-ui/core/styles";
 import { createMuiTheme } from "@material-ui/core/styles";
 import { ThemeProvider } from "@material-ui/styles";
@@ -31,6 +32,8 @@ export default function Home() {
           <About />
           <Skillset />
           <Projects />
+          <Work />
+          {/* <Test /> */}
         </div>
       </StylesProvider>
     </ThemeProvider>

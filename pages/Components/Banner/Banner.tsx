@@ -9,7 +9,7 @@ import Image from "next/image";
 export interface Props {}
 
 const Banner: React.FC<Props> = () => {
-  const isTabletOrMobile = useMediaQuery({ query: "(max-width: 960px)" });
+  const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1919px)" });
 
   return (
     <Grid container justify="center" className="banner_container" id="home">
@@ -21,7 +21,9 @@ const Banner: React.FC<Props> = () => {
         xs={4}
         className="avatar_container"
       >
-        <Image src="/profilefail.png" alt="" width="500px" height="880px" />
+        {isTabletOrMobile ? null : (
+          <Image src="/profilefail.png" alt="" width="500px" height="880px" />
+        )}
       </Grid>
 
       <Grid

@@ -19,7 +19,7 @@ const Skillset: React.FC<SkillsetProps> = () => {
       <Grid container justify="center" item xs={12}>
         <Grid className="skills_span_container">
           <Grid className="skills_span_befeore"></Grid>
-          <Typography className="skills_span">Skills</Typography>
+          <Typography className="skills_span">SKILLS</Typography>
           <Grid className="skills_span_after"></Grid>
         </Grid>
       </Grid>

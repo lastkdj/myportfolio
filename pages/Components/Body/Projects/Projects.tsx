@@ -6,11 +6,11 @@ export interface SkillsetProps {}
 
 const Skillset: React.FC<SkillsetProps> = () => {
   return (
-    <Grid container justify="center" className="project_container">
+    <Grid container justify="center" className="project_container" id="project">
       <Grid container justify="center" item xs={12}>
         <Grid className="project_span_container">
           <Grid className="project_span_befeore"></Grid>
-          <Typography className="project_span">Projects</Typography>
+          <Typography className="project_span">PROJECTS</Typography>
           <Grid className="project_span_after"></Grid>
         </Grid>
       </Grid>

@@ -1,0 +1,41 @@
+$fontColor: #1f232c;
+
+$xsBreakpoint: 375px;
+$smBreakpoint: 599px;
+$mdBreakpoint: 959px;
+$lgBreakpoint: 1279px;
+$xlBreakpoint: 1919px;
+
+$minBigPhone: 600px;
+$minTablet: 960px;
+$minLaptop: 1280px;
+
+.job_left_grid {
+  padding: 10px;
+}
+
+.jobtitle {
+  font-size: 1.4em;
+  font-weight: 600;
+  color: $fontColor;
+  margin: 10px 0px;
+}
+
+.jobsubtitle {
+  font-size: 1.1em;
+  font-weight: 400;
+  color: $fontColor;
+  margin: 10px 0px;
+}
+
+.jobdetails {
+  font-size: 1em;
+  font-weight: 300;
+  color: $fontColor;
+  margin: 10px 0px;
+  text-align: justify;
+}
+
+.job_logo {
+  margin: 0px 10px;
+}

@@ -1,4 +1,4 @@
-@import "project_tittle", "project_carousel", "project_paper";
+@import "jobs_tittle", "jobs_paper";
 
 $fontColor: #1f232c;
 
@@ -11,22 +11,26 @@ $xlBreakpoint: 1919px;
 $minTablet: 960px;
 $minLaptop: 1280px;
 
-.project_container {
+.jobs_container {
   padding: 90px 0px;
-  background-color: white;
+  background-color: #f2f2f2;
   overflow: hidden;
 }
 
-.project_grid_containerfirst {
+.job_grid {
+  padding: 20px;
+}
+
+.jobs_grid_containerfirst {
   margin: 20px 0px;
 }
 
 @media (max-width: $mdBreakpoint) {
-  .project_container {
+  .jobs_container {
     padding: 30px 10px;
   }
 
-  .project_grid_containerfirst {
+  .jobs_grid_containerfirst {
     margin: 0px;
   }
 }

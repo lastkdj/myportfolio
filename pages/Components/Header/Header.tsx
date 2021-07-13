@@ -89,9 +89,18 @@ const Header: React.FC<Props> = () => {
           >
             <Typography className="header_menu_text">SKILLS</Typography>{" "}
           </Link>
-          <Typography className="header_menu_text">PROJECTS</Typography>
+          <Link
+            activeClass="active"
+            to="project"
+            spy={true}
+            smooth={true}
+            offset={-66}
+            duration={1000}
+          >
+            <Typography className="header_menu_text">PROJECTS</Typography>
+          </Link>
           <Typography className="header_menu_text">WORK</Typography>
-          <Typography className="header_menu_text">MORE</Typography>
+          <Typography className="header_menu_text">CONTACT</Typography>
         </Grid>
       )}
     </Grid>

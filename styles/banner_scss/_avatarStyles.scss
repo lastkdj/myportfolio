@@ -14,9 +14,21 @@ $xlBreakpoint: 1920px;
   @include fadeInRightAnimation;
 }
 
+.avatar_size {
+  width: 500px;
+  height: 880px;
+}
+
 @media (max-width: $mdBreakpoint) {
   .avatar_container {
     display: none;
+  }
+}
+
+@media (min-width: $mdBreakpoint) and (max-width: $xlBreakpoint) {
+  .avatar_size {
+    width: 400px;
+    height: 680px;
   }
 }
 

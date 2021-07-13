@@ -46,7 +46,7 @@ const Design: React.SFC<DesignProps> = () => {
           My Design Knowledge
         </Typography>
       </Grid>
-      <Grid container item justify="center" xs={12}>
+      <Grid container item justify="space-around" xs={12}>
         <Photoshop />
         <Premiere />
       </Grid>

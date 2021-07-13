@@ -47,7 +47,7 @@ const Networking: React.SFC<NetworkingProps> = () => {
           My Networking Knowledge
         </Typography>
       </Grid>
-      <Grid container item justify="center" xs={12}>
+      <Grid container item justify="space-around" xs={12}>
         <Cisco />
         <Aruba />
       </Grid>

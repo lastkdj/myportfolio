@@ -6,12 +6,17 @@ $xlBreakpoint: 1919px;
 $minTablet: 960px;
 $minLaptop: 1280px;
 
+.project_fade {
+  transition: opacity 0.7s ease-in;
+}
+
 .project_grid_carousel {
   padding: 20px;
 }
 
 .project_image_grid {
   margin: 0px 20px;
+  cursor: pointer;
 }
 
 .project_carousel_image {
@@ -48,6 +53,7 @@ $minLaptop: 1280px;
   border: 1px solid #1f232c;
   transition: 0.5s;
   margin: 10px 0px;
+  font-size: 0.8em;
 }
 
 .project_button:hover {
@@ -58,4 +64,32 @@ $minLaptop: 1280px;
 
 .project_buttons_container {
   margin: 10px 10px;
+}
+
+.project_detail_paper {
+  margin: 10px 0px;
+}
+
+@media (max-width: $mdBreakpoint) {
+  .project_name {
+    font-size: 1em;
+  }
+
+  .project_description {
+    font-size: 0.8em;
+  }
+
+  .project_button {
+    width: 70%;
+  }
+
+  .project_image_grid {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: $mdBreakpoint) and (max-width: $lgBreakpoint) {
+  .project_button {
+    width: 70%;
+  }
 }
